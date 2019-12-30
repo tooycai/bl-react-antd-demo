@@ -1,0 +1,28 @@
+@colorA: pink;
+
+div {
+  //color: @colorA;
+  //background-color: #eee;
+  //border: 1px solid ;
+}
+
+.container {
+  display: flex;
+  .nav-left{
+    width: 15%;
+    min-width: 180px;
+    height: calc(100vh);
+    background-color: #001529
+  }
+  .main{
+    flex: 1;
+    height: calc(100vh);
+    background-color: #eee;
+    overflow: auto;
+  }
+
+  .content{
+    position: relative;
+    padding: 20px;
+  }
+}
